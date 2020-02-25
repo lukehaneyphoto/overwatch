@@ -10,20 +10,30 @@
 <body>
     <div class="overwatch">
         <div class="nav">
-            <div id="home_icon">
-                <img class="img_contain" src="Icons/logo.png">
-            </div>
-            <div id="nav_icon">
-                <img class="img_contain" id="icon_color" src="Icons/menu-24px.svg">
-            </div>
+    
+            <!-- Navigation bar -->
+              <a href="index.html" class="logo"><img id="home" src="Icons/logo.png"></a>
+            
+            <!-- 'hidden' menu-->
+              <div id="myLinks">
+                  <span id="orange"> <a href="sigma.html"><h4>Sigma</h4></a> </span>
+                    <a href="overwatch2.html"><h4>BASICS</h4></a>
+                    <a href="Heroes"><h4>HEROES</h4></a>
+              </div>
+            <!-- 'hidden' menu trigger-->
+              <a class="icon" onclick="showMenu()">
+                  <img id="menu" src="Icons/menu-24px.svg">
+              </a>
         </div>
         <div class="content">
             <a href="sigma.html">
-                <div id="banner_home">
+                <div class="banner" id="banner_home">
                     <div class="txt_banner">
                         <!--<img class="img_banner" src="Sigma/sigma_pose_1.jpg">-->
                         <h1> SIGMA </h1>
+                        <div class="learn"><h6>READ MORE</h6></div>
                     </div>
+                    
                 </div>
                 </a>
             <div class="header">
@@ -69,38 +79,49 @@
                 <h2> GUIDES <span id="orange"> > </span> </h2>
             </div>
             <div class="guide">
-                <div id="guide_counter">
+                <div class="guide_img" id="guide_counter">
                     <div class="guide_txt">
                         <h3> Hero Counters </h3>
                     </div>
                 </div>
             </div>
             <div class="guide">
-                <div id="guide_carry">
+                <div class="guide_img" id="guide_carry">
                     <div class="guide_txt">
                         <h3> How to Carry </h3>
                     </div>
                 </div>
             </div>
             <div class="guide">
-                <div id="guide_combo">
+                <div class="guide_img" id="guide_combo">
                     <div class="guide_txt">
                         <h3> Ultimate Combos </h3>
                     </div>
                 </div>
             </div>
             <div class="guide">
-                <div id="guide_meta">
+                <div class="guide_img" id="guide_meta">
                     <div class="guide_txt">
-                        <h3> What is Meta </h3>
+                        <h3> What is a Meta </h3>
                     </div>
                 </div>
             </div>
-            <div id="banner_learn">
-                <div class="txt_banner">
-                    <h1> Learn The Basics </h1>
-                    <div class="learn">LEARN MORE</div>
+            <a href="overwatch2.html">
+                <div class="banner" id="banner_learn">
+                    <div class="txt_banner">
+                        <h1>The Basics </h1>
+                        <div class="learn"><h6>LEARN MORE</h6></div>
+                    </div>
                 </div>
+            </a>
+            <div class="footer">
+                <h5>
+                    <br> RATED 12+
+                    <br>
+                    <br> OFFICIAL WEBSITE
+                    <br> CONTACT US
+                    <br> <br>
+                </h5>
             </div>
         </div>
     </div>

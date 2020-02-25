@@ -10,19 +10,93 @@
 <body>
     <div class="overwatch">
         <div class="nav">
-            <div class="nav_icon">Overwatch</div>
-            <div class="nav_icon">Menu</div>
+    
+            <!-- Navigation bar -->
+              <a href="index.html" id="logo"><img id="home" src="Icons/logo.png"></a>
+            
+            <!-- 'hidden' menu-->
+              <div id="myLinks">
+                  <span id="organge"> <a href="sigma.html"><h4>Sigma</h4></a> </span>
+                    <a href="overwatch2.html"><h4>BASICS</h4></a>
+                    <a href="Heroes"><h4>HEROES</h4></a>
+              </div>
+            
+            <!-- 'hidden' menu trigger-->
+              <a class="icon" onclick="showMenu()">
+                  <img id="menu" src="Icons/menu-24px.svg">
+              </a>
         </div>
         <div class="content">
-            <div class="banner">
-                <div class="banner_basics">
+                <a href="sigma.html">
+                <div class="banner" id="banner_overwatch2">
                     <div class="txt_banner">
-                        <h1>  </h1>
+        
+                        <h1> BASICS </h1>
+                    </div>
+                </div>
+                </a>
+            <div class="header">
+                <h2> HEROES <span id="orange"> > </span> </h2>
+            </div>
+            
+            <div class="hero">
+                <img class="hero_icon" src="Icons/TankIcon.png">
+            </div>
+            <div class="hero">
+                <img class="hero_icon" src="Icons/OffenseIcon.png">
+            </div>
+            <div class="hero">
+                <img class="hero_icon" src="Icons/SupportIcon.png">
+            </div>
+            
+            
+            <div class="header">
+                <h2> GUIDES <span id="orange"> > </span> </h2>
+            </div>
+            <div class="guide">
+                <div class="guide_img" id="guide_ult">
+                    <div class="guide_txt">
+                        <h3> When to Ult </h3>
                     </div>
                 </div>
             </div>
-            <h2> TUTORIALS > </h2>
-            
+            <div class="guide">
+                <div class="guide_img" id="guide_impact">
+                    <div class="guide_txt">
+                        <h3> Impacting a team fight </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="guide">
+                <div class="guide_img" id="guide_track">
+                    <div class="guide_txt">
+                        <h3> Tracking Ults </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="guide">
+                <div class="guide_img" id="guide_mechanics">
+                    <div class="guide_txt">
+                        <h3> Improving Mechanics </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="guide">
+                <div class="guide_img" id="guide_position">
+                    <div class="guide_txt">
+                        <h3>positioning</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h5>
+                    <br> RATED 12+
+                    <br>
+                    <br> OFFICIAL WEBSITE
+                    <br> CONTACT US
+                    <br> <br>
+                </h5>
+            </div>
         </div>
     </div>
 
