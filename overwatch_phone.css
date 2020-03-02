@@ -22,14 +22,14 @@ body{
     padding: 0px;
 }
 /* Web Page Container */
-/*.overwatch{
+.overwatch{
     height: auto;
-    width: 375px;
-    display: grid;
+    width: 100%;
+    /*display: grid*/;
     /*grid-template-columns: 5% 343px 5%;*/
     margin: 0px;
     padding: 0px;
-}*/
+}
 .header{
     width: auto;
     height: auto;
@@ -50,6 +50,9 @@ body{
     right: 0;
     display: none;
     background-color: #4B535D;
+    z-index: 1;
+    top: 110px;
+    width: 100%;
 }
 .nav a{
     color: #F7F7F7;
@@ -93,13 +96,12 @@ body{
     width: 100%;
     padding-top: 25px;
     align-content: center;
-    margin: 0px;
+    margin: 0%;
 }
 /* Banner Images */
 .banner{
     height: 500px;
     width: 100%;
-    background-size: auto 260px;
     background-position: center;
     background-size: cover;
 }
@@ -143,14 +145,15 @@ h3{
     letter-spacing: 3px;
     margin: 2%;
 }
-/* Banner Info */
-/*h4{
+/* Menu Text */
+h4{
     font-family: 'bignoodletoo';
     color: #F7F7F7;
-    font-size: 18px;
+    font-size: 38px;
+    padding: 10px;
     letter-spacing: 3px;
     margin: 10px;
-}*.
+}
 /* Footer Text */
 h5{
     margin-top: 5%;
@@ -238,6 +241,7 @@ h6{
 /* Guide Text Container */
 .guide_txt{
     padding: 2%;
+    padding-right: 4%;
     width: auto;
     height: auto;
     background-color: #F7F7F7;
@@ -271,14 +275,15 @@ h6{
 /* Button */
 .learn{
     width: 300px;
-    height: auto;
-    border-radius: 2px;
+    height: 100px;
+    border-radius: 10px;
     /*background-color: #FF9C00;*/
     background: rgb(255,156,0,0.75);
     align-content: center;
     text-align: center;
     vertical-align: middle;
-    padding: 10px;
+    margin: auto;
+    padding-top: 30px;
 }
 /* Remove Link Styling */
 a{
@@ -303,8 +308,7 @@ a:hover{
     object-position: top;
 }
 .footer{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     height: auto;
     width: 100%;
     background-color: #4B535D;
@@ -316,6 +320,8 @@ a:hover{
     background-color: #FF9C00;
     padding: 50px;
     margin: 5%;
+    align-content: center;
+    text-align: center;
 }
 /* Ability Icon Container */
 .ability_icon{
@@ -323,6 +329,7 @@ a:hover{
     height: 150px;
     width: auto;
     display: inline-block;
+    margin: auto;
 }
 #banner_home{
     background-image: url("Sigma/sigma_pose_1.jpg");
@@ -422,12 +429,14 @@ th{
 }
 .paragraph{
     background-color: #f7f7f7;
-    width: 100%;
+    width: auto;
     height: auto;
     text-align: justify;
 }
 p{
-    padding: 20px;
+    padding: 5%;
+    width: 100%;
+    background-color: #F7F7F7;
     font-family: 'Helvetica';
     color: #65779B;
     font-size: 12px;
@@ -450,7 +459,7 @@ iframe{
 section{
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
